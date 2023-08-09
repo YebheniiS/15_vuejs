@@ -1,0 +1,499 @@
+{
+	"tvScreens": [
+		{
+			"key": "Home",
+			"type": "HomeScreen",
+			"showHeader": true,
+			"showFooter": true,
+			"showWeather": true,
+			"items": [
+				{
+					"scKey": "liveTv",
+					"contentHtml": "Live TV",
+					"icon": "fa fa-tv",
+					"caption": "Live TV"
+				},
+				{
+					"scKey": "connectDevice",
+					"contentHtml": "Connect your device",
+					"icon": "fab fa-chromecast",
+					"caption": "connect your device"
+				},
+				{
+					"scKey": "hotelInfo",
+					"contentHtml": "Hotel Info",
+					"icon": "fa-solid fa-info",
+					"caption": "hotel info"
+				},
+				{
+					"scKey": "dining",
+					"contentHtml": "in Room Dining",
+					"icon": "fa fa-cutlery",
+					"caption": "dining"
+				},				
+				{
+					"scKey": "apps",
+					"contentHtml": "Applications List",
+					"icon": "fas fa-shapes",
+					"caption": "Applications"
+				}
+			]
+		},
+		{
+			"key": "hotelInfo",
+			"type": "SubMenu",
+			"showHeader": true,
+			"showFooter": true,
+			"showWeather": false,
+			"background": {
+				"type": "image",
+				"url": "facilites-bg.webp"
+			},
+			"items": [
+				{
+					"scKey": "restaurants",
+					"caption": "Restaurants",
+					"icon": "resto-cropped.webp"
+				},
+				{
+					"scKey": "bars",
+					"caption": "Bars",
+					"icon": "chokabar.webp"
+				},
+				{
+					"scKey": "rooms",
+					"caption": "Room Infos",
+					"icon": "uluwatu-room-0-cropped.webp"
+				},
+				{
+					"scKey": "spa",
+					"caption": "Spa",
+					"icon": "spa-room-cropped.webp"
+				},
+				{
+					"scKey": "meetings",
+					"caption": "Events & Meetings",
+					"icon": "event-img-cropped.webp"
+				},
+				{
+					"scKey": "gym",
+					"caption": "Gym",
+					"icon": "gym.webp"
+				}
+			]
+		},
+		{
+			"key": "apps",
+			"type": "SubMenu",
+			"showHeader": true,
+			"showFooter": true,
+			"showWeather": false,
+			"background": {
+				"type": "image",
+				"url": "facilites-bg.webp"
+			},
+			"items": [
+				{
+					"scKey": "app:com.vidio.android.tv",
+					"caption": "Vidio",
+					"icon": "vidio-icon.png"
+				},
+				{
+					"scKey": "app:com.molatvbox.public",
+					"caption": "Mola TV",
+					"icon": "molatv.jpg"
+				},
+				{
+					"scKey": "app:com.netflix.ninja",
+					"caption": "Netflix",
+					"icon": "netflix-red-black.png"
+				},
+				{
+					"scKey": "app:com.apple.atve.androidtv.appletv",
+					"caption": "Apple TV",
+					"icon": "appletv.png"
+				},
+				{
+					"scKey": "app:com.google.android.youtube.tv",
+					"caption": "Youtube TV",
+					"icon": "yt-white.jpg"
+				},
+				{
+					"scKey": "app:com.spotify.tv.android",
+					"caption": "Spotify",
+					"icon": "spotify.png"
+				}
+			]
+		},
+		{
+			"key": "dining",
+			"type": "DiningPage",
+			"showHeader": true,
+			"showFooter": false,
+			"showWeather": false,
+			"background": {
+				"type": "image",
+				"url": "facilites-bg.webp"
+			},
+			"categories": [
+				{
+					"key": "signature",
+					"name": "signature"
+				},
+				{
+					"key": "asian",
+					"name": "asian cuisine"
+				},
+				{
+					"key": "middleeast",
+					"name": "middle eastern"
+				},
+				{
+					"key": "western",
+					"name": "western"
+				}
+			],
+			"items": [
+				{
+					"scKey": "nasi-goreng",
+					"price": 120,
+					"caption": "nasi goreng sambal satay",
+					"icon": "dining/nasi-goreng-sambal-satay.jpg",
+					"description": "A flavorful dish of stir-fried rice with tender pieces of marinated chicken, seasoned with garlic, ginger, turmeric, and other spices. Served with a side of sambal, a spicy chili sauce, to add a kick of heat and tanginess to the dish. Complemented with skewers of grilled chicken or beef satay, marinated with a blend of aromatic spices and served with a sweet and savory peanut dipping sauce. A satisfying and delicious meal that showcases the rich and diverse flavors of Indonesian cuisine.",
+					"category": "asian"
+				},
+				{
+					"scKey": "gado-gado",
+					"price": 80,
+					"caption": "gado-gado jakarta",
+					"icon": "dining/gado-gado.jpg",
+					"description": "A refreshing salad made with a colorful mix of steamed or boiled vegetables, including green beans, cabbage, bean sprouts, and carrots, topped with crispy fried tofu and boiled eggs. Served with a generous drizzle of homemade peanut sauce, made with roasted peanuts, palm sugar, tamarind, and spices, which adds a sweet and savory flavor to the dish. A popular Indonesian dish that offers a healthy and delicious way to enjoy a variety of fresh vegetables.",
+					"category": "asian"
+				},
+				{
+					"scKey": "soto-ayam",
+					"price": 80,
+					"caption": "soto ayam lamongan",
+					"icon": "dining/soto-ayam.jpg",
+					"description": "A hearty and flavorful soup made with tender chicken pieces, vermicelli noodles, and a mix of vegetables such as bean sprouts, celery, and carrots. The soup is flavored with a blend of aromatic herbs and spices like lemongrass, turmeric, and garlic, and served with a side of steamed rice and hard-boiled egg. Garnished with crispy fried shallots, sliced green onions, and fresh cilantro, the dish is a comforting and satisfying meal that is perfect for any occasion.",
+					"category": "asian"
+				},
+				{
+					"scKey": "nasi-kuning",
+					"price": 135,
+					"caption": "nasi kuning ayam",
+					"icon": "dining/nasi-kuning.jpg",
+					"description": "A fragrant and aromatic rice dish made with a blend of spices, including turmeric, ginger, and lemongrass, which gives the rice its bright yellow color and distinctive flavor. Served with a variety of accompaniments, such as crispy fried chicken, boiled egg, and spicy sambal sauce, the dish is a popular choice for breakfast, lunch, or dinner. The combination of savory and spicy flavors makes nasi kuning a beloved Indonesian comfort food that is sure to satisfy any appetite.",
+					"category": "asian"
+				},
+				{
+					"scKey": "chicken-pakora",
+					"price": 90,
+					"caption": "chicken pakora",
+					"icon": "dining/chicken-pakora.webp",
+					"description": "A mouth-watering appetizer made with bite-sized pieces of chicken that are marinated in a blend of aromatic spices and coated in a chickpea flour batter. The chicken is then deep-fried until golden and crispy, resulting in a deliciously crunchy texture. Served with a side of tangy mint chutney, the dish is a popular choice for sharing and is perfect for those who enjoy bold and spicy flavors. A beloved Indian classic that is sure to tantalize your taste buds.",
+					"category": "asian"
+				},
+				{
+					"scKey": "aloo-chaat",
+					"price": 95,
+					"caption": "aloo chaat",
+					"icon": "dining/aloo-chaat.webp",
+					"description": "A refreshing salad made with boiled potatoes that are diced and tossed with a mix of spices, including cumin, coriander, and chaat masala, a tangy and savory spice blend. The potatoes are then mixed with fresh vegetables, such as onions, tomatoes, and cilantro, and served with a side of sweet and tangy tamarind chutney. The dish is a popular street food in India and is perfect for those who enjoy bold and tangy flavors. A perfect appetizer or light meal that is sure to awaken your senses.",
+					"category": "asian"
+				},
+				{
+					"scKey": "aloo-gobi",
+					"price": 110,
+					"caption": "Aloo Gobi",
+					"icon": "dining/aloo-gobi.webp",
+					"description": "A delicious and aromatic vegetarian dish made with tender pieces of potato and cauliflower, cooked in a rich and flavorful tomato-based sauce. The dish is seasoned with a blend of traditional Indian spices, including cumin, coriander, turmeric, and garam masala, which give it its distinctive flavor and aroma. Served with a side of fluffy steamed rice or warm naan bread, aloo gobi is a popular and satisfying meal that is perfect for vegetarians and meat-lovers alike.",
+					"category": "asian"
+				},
+				{
+					"scKey": "signature-lamb",
+					"price": 330,
+					"caption": "pan roast lamb",
+					"icon": "dining/signature-dish-0.webp",
+					"description": "A succulent lamb dish that is seared in a hot pan to create a crispy crust on the outside while keeping the meat tender and juicy on the inside. The lamb is seasoned with a mix of fragrant herbs such as rosemary, thyme, and garlic, and served with a side of creamy mashed potatoes and sautéed vegetables such as carrots, broccoli, and zucchini. The dish is a hearty and satisfying choice for dinner, perfect for those who enjoy the rich and savory flavors of lamb.",
+					"category": "signature"
+				},
+				{
+					"scKey": "surf-and-turf",
+					"price": 290,
+					"caption": "Surf & Turf",
+					"icon": "dining/signature-dish-1.jpeg",
+					"description": "A classic dish that combines two delicious proteins, steak and seafood, in one flavorful meal. The dish typically features a juicy and tender grilled steak, such as a filet mignon or a New York strip, alongside a succulent seafood item, such as grilled shrimp or buttery lobster tail. The steak is seasoned with a blend of spices and served with a side of buttery mashed potatoes or crispy French fries, while the seafood is often accompanied by a tangy lemon butter sauce and a side of grilled vegetables such as asparagus or zucchini. This dish is a popular choice for special occasions and is perfect for those who want to indulge in the best of both worlds.",
+					"category": "signature"
+				},
+				{
+					"scKey": "vegan-hummus",
+					"price": 130,
+					"caption": "vegan hummus",
+					"icon": "dining/hummus.jpeg",
+					"description": "A creamy and savory dip made from chickpeas, tahini (sesame paste), lemon juice, garlic, and a touch of olive oil. Our hummus is vegan, gluten-free, and made without any artificial preservatives or flavors. Served with a side of crispy pita bread, fresh vegetables, or pita chips, this classic Middle Eastern dip is perfect for sharing or as a healthy snack. Our vegan hummus is a delicious and healthy option for those following a plant-based diet or anyone who loves the rich and bold flavors of hummus.",
+					"category": "middleeast"
+				},
+				{
+					"scKey": "falafel",
+					"price": 88,
+					"caption": "falafel",
+					"icon": "dining/falafel.webp",
+					"description": "Falafel - A classic Middle Eastern street food made from ground chickpeas, onions, garlic, and a blend of aromatic spices, such as cumin, coriander, and parsley, shaped into small balls or patties and deep-fried until crispy and golden brown. Served with a side of tangy tahini sauce and fresh vegetables, such as lettuce, tomatoes, and cucumbers, the dish is a popular choice for vegetarians and meat-eaters alike. Our falafel is made fresh daily and served hot and crispy for maximum flavor and texture. Perfect as an appetizer or as a main course, our falafel is a delicious and healthy option that is sure to satisfy your cravings.",
+					"category": "middleeast"
+				},
+				{
+					"scKey": "shawarma",
+					"price": 105,
+					"caption": "arabians shawarma",
+					"icon": "dining/shawarma.jpeg",
+					"description": "A delicious and savory Middle Eastern dish made from thinly sliced marinated meat, such as chicken, beef, or lamb, cooked on a vertical spit and served wrapped in a warm pita bread, along with fresh vegetables, such as lettuce, tomatoes, onions, and pickles. The shawarma is typically seasoned with a blend of spices, such as cumin, coriander, and paprika, and served with a side of tangy garlic sauce or tahini sauce. Our Arabian shawarma is made fresh to order and served hot and juicy for maximum flavor and texture. Perfect as a quick lunch or as a satisfying dinner, our shawarma is a must-try for anyone who loves bold and flavorful Middle Eastern cuisine.",
+					"category": "middleeast"
+				},
+				{
+					"scKey": "beef-burger",
+					"price": 330,
+					"caption": "beef burger",
+					"description": "A classic and juicy beef patty, made with fresh ground beef, seasoned with a blend of spices, grilled to perfection, and served on a toasted bun. The burger is topped with classic fixings, such as melted cheese, crispy bacon, lettuce, tomato, onion, and pickles. Served with a side of crispy fries or onion rings, this burger is a favorite for lunch or dinner. At our restaurant, we use only the highest quality beef and ingredients to make our burgers, ensuring that each bite is packed with flavor and satisfaction. For those who prefer a healthier option, we also offer a turkey or veggie burger with similar toppings.",
+					"category": "western"
+				},
+				{
+					"scKey": "chicken-sandwich",
+					"price": 145,
+					"caption": "chicken sandwich",
+					"description": "A juicy and tender chicken breast, seasoned with a blend of spices, grilled to perfection, and served on a toasted bun. The sandwich is topped with classic fixings, such as lettuce, tomato, onion, and pickles, and can be customized with your choice of cheese, sauce, or additional toppings, such as crispy bacon or avocado. Served with a side of crispy fries or a side salad, this sandwich is a delicious and satisfying choice for lunch or dinner. At our restaurant, we use only fresh and high-quality chicken, ensuring that each bite is packed with flavor and satisfaction. For those who prefer a healthier option, we also offer a grilled chicken sandwich served on a bed of greens.",
+					"category": "western"
+				},
+				{
+					"scKey": "beef-and-bean-nachos",
+					"price": 145,
+					"caption": "beef & bean nachos",
+					"description": "Our delicious beef and bean nachos are a mouth-watering combination of crispy corn tortilla chips layered with savory seasoned ground beef, refried beans, melted cheddar cheese, and finished with a dollop of sour cream and fresh diced tomatoes. Perfect for sharing with friends or as a satisfying snack on your own. You'll love the explosion of flavors and textures in every bite!",
+					"category": "western"
+				},
+				{
+					"scKey": "salmorejo",
+					"price": 240,
+					"caption": "salmorejo",
+					"description": "Salmorejo is a cold soup that originated in the south of Spain. It is made with ripe tomatoes, garlic, bread crumbs, olive oil, and sherry vinegar, and typically served with chopped hard-boiled eggs and ham on top. It has a rich, creamy texture and a tangy, slightly sweet flavor that is perfect for a refreshing summer dish. Try our delicious Salmorejo for a taste of Spain!",
+					"category": "western"
+				},
+								{
+					"scKey": "beef-burger",
+					"price": 330,
+					"caption": "beef burger",
+					"description": "A classic and juicy beef patty, made with fresh ground beef, seasoned with a blend of spices, grilled to perfection, and served on a toasted bun. The burger is topped with classic fixings, such as melted cheese, crispy bacon, lettuce, tomato, onion, and pickles. Served with a side of crispy fries or onion rings, this burger is a favorite for lunch or dinner. At our restaurant, we use only the highest quality beef and ingredients to make our burgers, ensuring that each bite is packed with flavor and satisfaction. For those who prefer a healthier option, we also offer a turkey or veggie burger with similar toppings.",
+					"category": "western"
+				},
+				{
+					"scKey": "chicken-sandwich",
+					"price": 145,
+					"caption": "chicken sandwich",
+					"description": "A juicy and tender chicken breast, seasoned with a blend of spices, grilled to perfection, and served on a toasted bun. The sandwich is topped with classic fixings, such as lettuce, tomato, onion, and pickles, and can be customized with your choice of cheese, sauce, or additional toppings, such as crispy bacon or avocado. Served with a side of crispy fries or a side salad, this sandwich is a delicious and satisfying choice for lunch or dinner. At our restaurant, we use only fresh and high-quality chicken, ensuring that each bite is packed with flavor and satisfaction. For those who prefer a healthier option, we also offer a grilled chicken sandwich served on a bed of greens.",
+					"category": "western"
+				},
+				{
+					"scKey": "beef-and-bean-nachos",
+					"price": 145,
+					"caption": "beef & bean nachos",
+					"description": "Our delicious beef and bean nachos are a mouth-watering combination of crispy corn tortilla chips layered with savory seasoned ground beef, refried beans, melted cheddar cheese, and finished with a dollop of sour cream and fresh diced tomatoes. Perfect for sharing with friends or as a satisfying snack on your own. You'll love the explosion of flavors and textures in every bite!",
+					"category": "western"
+				},
+				{
+					"scKey": "salmorejo",
+					"price": 240,
+					"caption": "salmorejo",
+					"description": "Salmorejo is a cold soup that originated in the south of Spain. It is made with ripe tomatoes, garlic, bread crumbs, olive oil, and sherry vinegar, and typically served with chopped hard-boiled eggs and ham on top. It has a rich, creamy texture and a tangy, slightly sweet flavor that is perfect for a refreshing summer dish. Try our delicious Salmorejo for a taste of Spain!",
+					"category": "western"
+				}
+			]
+		},
+		{
+			"key": "connectDevice",
+			"type": "DetailPage",
+			"showHeader": true,
+			"showFooter": true,
+			"showWeather": false,
+			"background": {
+				"type": "image",
+				"url": "ncbanner.png"
+			}
+		},
+		{
+			"key": "restaurants",
+			"type": "DetailPage",
+			"showHeader": true,
+			"showFooter": true,
+			"showWeather": false,
+			"breadcrumbContent": "Hotel Info",
+			"heading": "Artichoke",
+			"textHtml": "With its casual brasserie atmosphere and simple, delicious dishes, Artichoke is the ideal place for an informal business lunch or a quick bite before heading to the beach. You can choose à la carte Indonesian and international dishes in addition to weekly themed buffets. Every morning, join us for the Super Breakfast buffet featuring international and continental favorites. When the weather is just too nice to eat indoors, head to the terrace to enjoy your meal along with the sun and the ocean breeze.",
+			"background": {
+				"type": "image",
+				"url": "resto.webp"
+			}
+		},
+		{
+			"key": "rooms",
+			"type": "DetailPage",
+			"showHeader": true,
+			"showFooter": true,
+			"showWeather": false,
+			"breadcrumbContent": "Hotel Info",
+			"heading": "Deluxe Room",
+			"textHtml": "Choose between one king bed or two twin beds in this deluxe room featuring beautiful vistas overlooking the Indian Ocean. For a leisurely start to your day, take a warm cup of coffee onto the attached terrace or balcony and enjoy a delicious meal from room service. Afterward, you can check your email using free Wi-Fi and watch the morning news on the flat-screen TV. Accessible room options are available on request.",
+			"background": {
+				"url": "uluwatu-room-0-cropped.webp",
+				"type": "image"
+			}
+		},
+		{
+			"key": "bars",
+			"type": "DetailPage",
+			"showHeader": true,
+			"showFooter": true,
+			"showWeather": false,
+			"breadcrumbContent": "Hotel Info",
+			"heading": "Choka Bar",
+			"textHtml": "Choka, which means “awesome” in surfer lingo, lives up to its name with friendly bartenders who stand ready to mix the ideal blend of rum, coconut, and tropical fruit for a refreshing poolside beverage. Frequented by hotel guests and locals alike, Choka is a popular destination for relaxed hangouts. Enjoy pizza, a sandwich, a Choka burger, or a coconut piña colada while taking in the activities and fun atmosphere around you.",
+			"background": {
+				"url": "chokabar.webp",
+				"type": "image"
+			}
+		},
+		{
+			"key": "spa",
+			"type": "DetailPage",
+			"showHeader": true,
+			"showFooter": true,
+			"showWeather": false,
+			"breadcrumbContent": "Hotel Info",
+			"heading": "Spa Esc",
+			"textHtml": "With its motto \"Escape - Reboot - Recover,\" Spa Esc Radisson Blu Bali Uluwatu offers an extensive array of global wellness and beauty rituals, honoring cultures from every corner of the globe to offer the ultimate spa experience using organic ingredients. Featuring seven private treatment rooms, the on-site spa provides an oasis to enjoy signature massage and luxurious facial treatments. The state-of-the-art relaxation area serves as a serene haven inspired by an ancient water palace.",
+			"background": {
+				"url": "spa.jpg",
+				"type": "image"
+			}
+		},
+		{
+			"key": "meetings",
+			"type": "DetailPage",
+			"showHeader": true,
+			"showFooter": true,
+			"showWeather": false,
+			"breadcrumbContent": "Hotel Info",
+			"heading": "Wedding",
+			"textHtml": "Host your dream wedding at one of our hotel’s three elegant venues. Nestled within the beautifully landscaped gardens and surrounded by a serene water feature, our pavilions are ideal for an intimate ceremony of up to 20 guests. For larger weddings with up to 300 guests, choose a bespoke poolside setting with seating by the water or within the lush greenery of our garden. A breathtaking ceremony and celebratory banquet are assured at the Radisson Blu Bali Uluwatu.",
+			"background": {
+				"url": "event-img-cropped.webp",
+				"type": "image"
+			}
+		},
+		{
+			"key": "gym",
+			"type": "DetailPage",
+			"showHeader": true,
+			"showFooter": true,
+			"showWeather": false,
+			"breadcrumbContent": "Hotel Info",
+			"heading": "Fitness Center",
+			"textHtml": "Imaginary Gym is a state-of-the-art fitness facility designed to help you achieve your health and fitness goals. We offer top-of-the-line equipment, a variety of fitness classes, wellness services, and a welcoming and inclusive environment. Whether you're a beginner or a fitness enthusiast, we have everything you need to take your fitness journey to the next level. Come see for yourself what sets us apart from other gyms!",
+			"background": {
+				"url": "gym.webp",
+				"type": "image"
+			}
+		},
+		{
+			"key": "signature-lamb",
+			"type": "DetailPage",
+			"showHeader": true,
+			"showFooter": true,
+			"showWeather": false,
+			"breadcrumbContent": "dining",
+			"heading": "pan roast lamb",
+			"textHtml": "A succulent lamb dish that is seared in a hot pan to create a crispy crust on the outside while keeping the meat tender and juicy on the inside. The lamb is seasoned with a mix of fragrant herbs such as rosemary, thyme, and garlic, and served with a side of creamy mashed potatoes and sautéed vegetables such as carrots, broccoli, and zucchini. The dish is a hearty and satisfying choice for dinner, perfect for those who enjoy the rich and savory flavors of lamb.",
+			"background": {
+				"url": "dining/signature-dish-0.webp",
+				"type": "image"
+			}
+		},
+		{
+			"key": "nasi-goreng",
+			"type": "DetailPage",
+			"showHeader": true,
+			"showFooter": true,
+			"showWeather": false,
+			"breadcrumbContent": "dining",
+			"heading": "nasi goreng sambal satay",
+			"textHtml": "A flavorful dish of stir-fried rice with tender pieces of marinated chicken, seasoned with garlic, ginger, turmeric, and other spices. Served with a side of sambal, a spicy chili sauce, to add a kick of heat and tanginess to the dish. Complemented with skewers of grilled chicken or beef satay, marinated with a blend of aromatic spices and served with a sweet and savory peanut dipping sauce. A satisfying and delicious meal that showcases the rich and diverse flavors of Indonesian cuisine.",
+			"background": {
+				"url": "dining/nasi-goreng-sambal-satay.jpg",
+				"type": "image"
+			}
+		},
+		{
+			"key": "gado-gado",
+			"type": "DetailPage",
+			"showHeader": true,
+			"showFooter": true,
+			"showWeather": false,
+			"breadcrumbContent": "dining",
+			"heading": "gado-gado jakarta",
+			"textHtml": "A refreshing salad made with a colorful mix of steamed or boiled vegetables, including green beans, cabbage, bean sprouts, and carrots, topped with crispy fried tofu and boiled eggs. Served with a generous drizzle of homemade peanut sauce, made with roasted peanuts, palm sugar, tamarind, and spices, which adds a sweet and savory flavor to the dish. A popular Indonesian dish that offers a healthy and delicious way to enjoy a variety of fresh vegetables.",
+			"background": {
+				"url": "dining/gado-gado.jpg",
+				"type": "image"
+			}
+		},
+		{
+			"key": "liveTv",
+			"type": "DetailPage",
+			"showHeader": true,
+			"showFooter": false,
+			"showWeather": false,
+			"background": {
+				"type": "image",
+				"url": "facilites-bg.webp"
+			}
+		}
+	],
+	"header": {
+		"logoUrl": "hotel_logo.png",
+		"greeting": "Peter",
+		"directMessages": [
+			"Dear Peter, please get in touch with reception at your earliest convenience. Dial 0.",
+			"You can enjoy your favorite netflix series just one click from your fingertips"
+		],
+		"showTime": true,
+		"weatherHtml": "<a class='weatherwidget-io' href='https://forecast7.com/en/n8d67115d21/denpasar-city/' data-mode='Current' data-theme='dark' data-basecolor=''>Denpasar, Bali, Indonesia</a>",
+		"tvName": "Room 507 TV"
+	},
+	"footer": {
+		"messages": [
+			"Dear Guests, our Wi-Fi allows you to connect any device to the TV and watch your own content like YouTube, Netflix, and Facebook Videos on the TV screen or listen to your music on Spotify or YouTube Music. Follow the above steps to start without using VPN."
+		]
+	},
+	"bgContents": [
+		{
+			"type": "image",
+			"url": "lobby.webp",
+			"imgDuration": 10
+		},
+		{
+			"type": "video",
+			"url": "italian_restaurant.mp4"
+		},
+		{
+			"type": "video",
+			"url": "tabletop_food_reel_sebastian.mp4"
+		},
+		{
+			"type": "video",
+			"url": "food_reel.mp4"
+		},
+		{
+			"type": "video",
+			"url": "bento_sushi.mp4"
+		}
+	]
+}

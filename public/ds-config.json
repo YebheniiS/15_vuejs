@@ -1,0 +1,20 @@
+{
+	"tvScreens": [
+		{
+			"key": "Home",
+			"type": "HomeScreen",
+			"showFooter": true
+		}
+	],
+	"footer": {
+		"messages": [
+			"Dear Guests, our Wi-Fi allows you to connect any device to the TV and watch your own content like YouTube, Netflix, and Facebook Videos on the TV screen or listen to your music on Spotify or YouTube Music. Follow the above steps to start without using VPN."
+		]
+	},
+	"bgContents": [
+		{
+			"type": "video",
+			"url": "italian_restaurant.mp4"
+		}
+	]
+}

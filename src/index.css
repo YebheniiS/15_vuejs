@@ -1,0 +1,6 @@
+/* Import helvetica font css */
+@import url("./assets/fonts/helvetica-nueue.css");
+/* ./src/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
